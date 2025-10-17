@@ -1,0 +1,62 @@
+{
+  "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "messages": [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "Please extract all textual content from this image."
+        },
+        {
+          "type": "image_url",
+          "image_url": {
+            "url": "data:image/jpg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABYPERMRDhYTEhMZFxYaITckIR4eIUQwMyg3UEZUU09GTUxYY39sWF54X0xNbpZweIOHjpCOVmqcp5uKpn+Ljon/2wBDARcZGSEdIUEkJEGJW01biYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYn/wAARCAA5ASwDASIAAhEBAxEB/8QAGwABAQADAQEBAAAAAAAAAAAAAAUDBAYCAQf/xAAsEAACAgIBAwMDBAIDAAAAAAAAAQIDBBEFEiExBhNRFDJxFiJhgRVBJDOh/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ALHIc/iYWQsdRsvu/wBxqW9GTjeaxeQslVFTquituuxaejRu4vG4e63loStnKEe1fy/B94vjr8vLfK8goQlZDUaoLWk/n+gNq7m4pTnjYl+TVW2p2QWktfG/J6xuZrzqlLAqd0urUoSai4/yzxPkFuWFxWP7s4Lpcl2rh+WOH4iWFh3V227uvbc5Q7a/AGKrnbLeUeBXhOc4vU5RntRXz4KPJchRx2K7729eEl5bOf5fjcbhcZZeFfZVk9SW3PfX+Ual/JRzbL7M1yiq6eiqHQ2nJruwOvxMiOTi15CXTGcd6b8GRzgtbklvxt+SJw+Th8lw8MR7co16lHTXj+TQ4Di8fM+oeVOdrqm4wg5P9i+QOizJ5sen6Omqzf3dc9aNfieQyMu7JpyaYV2USUX0PaZrenbLIyysWU3OumeoNvel8GLhr61znIVt6nOW0m/IFPNlyUZ/8OGPKGvNjae/6PHC51ufiSsvrjCcZuDUX27G9b/1T/DIfpS+uePkVprrja21vuBt8hdy1CttojiOmC2upy6jZ4zJnmYFWRZFRnNbaXg8cxLp4vJfxB+DB6curt4ejoa2lprfhgYOSy+Ywap39OJKqMuyXVtor1znZjRmklOUd6fjZI9V2KHFrfh2LZVw7IWYtUq2nFxWtMCRlZvL4d2OrlizhbYoagnv/wBLN/vOmX07grdft6/BD56+C5bjoWPUYz6nt9i+mmtprQEaGbydXLUYmSsaUbYuTdae0l+S0c9XkV3er5qTSdVPRFN/72dCAAAAAAAAAAAAAAAAAAAAAAAABq8nj5GTiSqxcj2LG/v1s+Qxbv8AG/TW5Ep2uHS7dd/ybYAi08XyONjwoxs+uuEVrtT3f8m1RjchVjuMs2Ntzf3Sh2X9FAARo8BC3Jjk5+TZlTi9pPtFf0VbqY2UTq0kpR14MgAnVwq4bjOlqdkY+emO2zkMKNtnIW9TzMeu6fZ1xfj+T9AGl8ICJ+n4Qxo1Y2XfS99UpJ95fk1v0nD3fd+uv9x93Lts6QARbeBsnCEVyWSula+7ya1fpOuqzrqzb4Sflr/Z0YAh5Hp+V8v3chkdLjpx35MeN6YhizUqs2+K+E9bOgAEC/0zHIcvdzr5Rb30t7PWN6cWPGUa87ISa0kn4LoA52z0pVdp3Zt85Lw2/Bn/AE9rHVUeQyl33vqLYA51+ksd2+79Zke556trZcxMdYuPClTnNRX3Te2zMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/9k="
+          }
+        }
+      ]
+    },
+    {
+      "role": "system",
+      "content": "You are an assistant that extracts all textual content from the image input."
+    }
+  ],
+  "temperature": 1,
+  "max_completion_tokens": 1024,
+  "top_p": 1,
+  "stream": false
+}
+
+
+{
+    "id": "chatcmpl-35d8bfc7-1f10-4b7f-a3f3-63a0b388179e",
+    "object": "chat.completion",
+    "created": 1760692834,
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "The textual content extracted from the image is: \n\n?234plllllll"
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "queue_time": 0.199055653,
+        "prompt_tokens": 187,
+        "prompt_time": 0.006516873,
+        "completion_tokens": 16,
+        "completion_time": 0.043140766,
+        "total_tokens": 203,
+        "total_time": 0.049657639
+    },
+    "usage_breakdown": null,
+    "system_fingerprint": "fp_5d3e4e58e1",
+    "x_groq": {
+        "id": "req_01k7rqh3x1fap9p93m6as0p7cb"
+    },
+    "service_tier": "on_demand"
+}
