@@ -1,0 +1,18 @@
+{
+"model": "llama-3.3-70b-versatile",
+"messages": [
+{
+"role": "user",
+"content": "Context: User Story: As a Nonfuncational test architect, I want to create NFRs for Retail application which APIs services is intergrated with Point of sale, Worldpay and Azure Event hub.\n- Generate non-functional requirements for this user story.\n- Generate top 10 NFRs, to cover the majority of non-functional requirements."
+},
+{
+"role": "system",
+"content": "You are an expert in Non functional testing\n- You are aware of non functional test methodologies for API."
+},
+{
+"role": "assistant",
+"content": "Output the testcases in a table format"
+}
+],
+"temperature": 0.1
+}
